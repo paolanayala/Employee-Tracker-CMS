@@ -13,13 +13,13 @@ VALUES  (501, 'Rita', 'Lore', 'Office Manager'), --Admin
         (302, 'Sandy', 'Cheeks', 'Staff Accountant', 301), --finance
         (202, 'Leslie', 'Knope', 'Compliance Officer', 201); --legal
 
-INSERT INTO roles (id, title, salary, department_id)
-VALUES  (100, 'Executives', 1800000, 1),
-        (200, 'Legal', 198000, 2),
-        (300, 'Finance', 150000, 3),
-        (400, 'Sales', 90000, 4),
-        (500, 'Administrative', 75000, 5),
-        (600, 'Engineering', 168000, 6);
+INSERT INTO roles (title, salary, department_id)
+VALUES  ('Executives', 1800000, 1),
+        ('Legal', 198000, 2),
+        ('Finance', 150000, 3),
+        ('Sales', 90000, 4),
+        ('Administrative', 75000, 5),
+        ('Engineering', 168000, 6);
 
 
 INSERT INTO departments (id, department_name)
